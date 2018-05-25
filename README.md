@@ -1,3 +1,3 @@
-# linkextractorprocessor
-Apache NiFi Custom Processor For Link Extracting
+# imageextractor
+Apache NiFi Custom Processor For Image Extracting
 # nifi-imageextractor-processor
