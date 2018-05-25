@@ -39,7 +39,7 @@ public class ImageProcessorTest {
 
 	@Test
 	public void testProcessor() {
-		testRunner.setProperty("url", "https://nifi.apache.org/");
+		testRunner.setProperty("url", "http://nifi.apache.org/");
 		try {
 			testRunner.enqueue(new FileInputStream(new File("src/test/resources/test.csv")));
 		} catch (FileNotFoundException e) {
